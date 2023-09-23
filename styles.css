@@ -110,6 +110,13 @@ p{
 .imgas img {
   height: 250px;
 }
+@media (min-width: 991px) {
+  .imgas {
+    position: absolute;
+    top: 70px;
+    left: 60%;
+  }
+}
 .buttons button {
   background-color: #c8d91a;
   margin-bottom: 0.5rem;
@@ -119,13 +126,6 @@ button img {
 }
 button .arrow {
   max-height: 8px;
-}
-@media (min-width: 991px) {
-  .imgas {
-    position: absolute;
-    top: 70px;
-    left: 60%;
-  }
 }
 .elips {
   display: -webkit-box;
